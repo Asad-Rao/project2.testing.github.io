@@ -61,6 +61,7 @@ nav
     /* both back-ground images are not repeating */
     background-repeat: no-repeat,no-repeat;
     background-position: top left,right center;
+    background-size: 100% ,100%;
 }
 .homecarousel1row
 {
@@ -262,6 +263,19 @@ color: rgb(58,58,58);
     flex-wrap: wrap;
 align-items: center;
 justify-content: space-between;
+}
+.sectionsixcol1
+{
+    width: 50%;
+}
+.sectionsixcol2
+{
+    width: 50%;
+}
+.smallsizetextsix
+{
+    font-family:RanuaTrials-Regular;
+    color: rgb(91,91,91);
 }
 
 /***************************************************************/
@@ -506,6 +520,7 @@ width: 25%;
 {
     font-family:RanuaTrials-Medium;
     color: rgb(58,58,58);
+    font-size: 45px;
 }
 .smallsizetext
 {
@@ -519,6 +534,7 @@ background-image:url("images/cleaningbottelwhiteglare.png"),url("images/cleaning
 /* both back-ground images are not repeating */
 background-repeat: no-repeat,no-repeat;
 background-position: top left,right center;
+background-size: 100% ,100%;
 
 
 }
