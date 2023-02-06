@@ -54,14 +54,16 @@ nav
     width: 2%;
 }
 /*******************carouselhomebackground***********************/
+
 .backgroundtophome
 {
-    background-image:url("images/cleaningbottelwhiteglare.png"),url("images/cleaningbottlebackgroundphotp.png");
+    background-image:url("images/glowhometop.png"),url("images/cleaningbottletophome.png");
 
     /* both back-ground images are not repeating */
     background-repeat: no-repeat,no-repeat;
-    background-position: top left,right center;
-    background-size: 100% ,100%;
+    background-position: center right,center center;
+    background-size:cover;
+
 }
 .homecarousel1row
 {
@@ -70,19 +72,53 @@ nav
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    padding-block: 100px;
 }
 .homecarousel1col1
 {
     width: 40%;
 }
+.carouselulimages
+{
+    display: flex;
+    justify-content: space-between;
+    font-family:RanuaTrials-Regular;
+    color: rgb(58,58,58);
+    font-size: 13px;
+    flex-wrap: wrap;
+}
+.carouselulimages img
+{
+    max-width: 65%;
+}
+.liimagescarousel
+{
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    width: 30%; 
+    text-align: center;
+     position: relative;  
+     border-radius: 50%;
+      overflow: hidden;
+      border-style: solid;
+      border-width: thick;
+      border-color:rgb(226 183 101);
+}
 .homecarouselcol2
 {
     width: 40%;
+}
+.orangecylinder
+{
+    max-width: 25%;
+    display: block;
 }
 .homecarousel1col1heading
 {
     font-family:RanuaTrials-Medium;
     color: rgb(58,58,58);
+    font-size: 55px;
 }
 .homecarousel1col1smalltext
 {
@@ -135,6 +171,24 @@ height: 100%;
 {
 background-image: url("images/threebottlesbackground.png");
 }
+.textbottlesection
+{
+   text-align: center;
+   width: 50%;
+   margin: 0 auto;
+  
+}
+
+
+.textbottlesection h2
+{
+    font-size: 30px;
+    font-family:RanuaTrials-Regular;
+}
+.textbottlesection p
+{
+      font-family:RanuaTrials-Regular;
+}
 .bottlesrow
 {
     display: flex;
@@ -181,12 +235,13 @@ background-image: url("images/threebottlesbackground.png");
 {
     /* text-align: center; */
     font-family:RanuaTrials-Medium;
-
 }
 .textbottlesection h2
 {
 color: rgb(58,58,58);
 }
+
+
 
 /**********************Child Section**********************************/
 .rowchild
@@ -209,6 +264,7 @@ color: rgb(58,58,58);
 {
     color: rgb(58,58,58);
     font-family:RanuaTrials-Medium;
+    font-size: 20px;
 }
 .littlechildimage
 {
@@ -252,10 +308,10 @@ color: rgb(58,58,58);
 /**************************Section number six*******************/
 #sectionsix
 {
-    background-image: url("images/sectionsixbackgroundtwo.png"),url("images/sectionsixbackgroundimage.png");
+    background-image: url("images/sectionsixbackgroundtwo.png"),url("images/mostbottomsectionsix.png");
     background-repeat: no-repeat , no-repeat;
     background-position:center , center;
-    background-size: 100% ,100%;
+    background-size:cover,cover;
 }
 .sectionsixrow
 {
@@ -271,6 +327,15 @@ justify-content: space-between;
 .sectionsixcol2
 {
     width: 50%;
+
+
+}
+.bluecylinder
+{
+    max-width: 16%;
+    margin-left:34%;
+    width: 100%;
+  
 }
 .smallsizetextsix
 {
@@ -433,17 +498,23 @@ gap: 2%;
     text-align:center;
     color: rgb(58,58,58);
 }
+.sectionsevenheading
+{
+   
+        font-family:RanuaTrials-Regular;
+        font-size: 20px;
+}
 .sectionsevenrow
 {
     display: flex;
 justify-content: space-around;
 
-    align-items: center;
 
 }
 .sectionsevencolumn
 {
 width: 25%;
+text-align: center;
 
 }
 .userimagecontainer
@@ -520,7 +591,7 @@ width: 25%;
 {
     font-family:RanuaTrials-Medium;
     color: rgb(58,58,58);
-    font-size: 45px;
+    font-size: 30px;
 }
 .smallsizetext
 {
@@ -534,7 +605,8 @@ background-image:url("images/cleaningbottelwhiteglare.png"),url("images/cleaning
 /* both back-ground images are not repeating */
 background-repeat: no-repeat,no-repeat;
 background-position: top left,right center;
-background-size: 100% ,100%;
+/* for responsive image we use background-size:cover */
+background-size:cover;
 
 
 }
@@ -543,15 +615,16 @@ background-size: 100% ,100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 .cleaningpottlecol1
 {
 
-    width: 50%;
+    width: 33%;
 }
 .cleaningpottlecol2
 {
-    width: 50%;
+    width: 33%;
 }
 
 /*************************************************************/
