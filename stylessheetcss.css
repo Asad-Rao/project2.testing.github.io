@@ -54,7 +54,10 @@ nav
     width: 2%;
 }
 /*******************carouselhomebackground***********************/
-
+#sectionone
+{
+    margin: 4% auto;
+}
 .backgroundtophome
 {
     background-image:url("images/glowhometop.png"),url("images/cleaningbottletophome.png");
@@ -141,6 +144,12 @@ nav
     transform: translateX(75px);
 }
 /*******************************Above bottles section************/
+#abovebottlessection
+{
+    margin:auto;
+}
+
+
 .abovebottlesrow
 {
 display: flex;
@@ -170,6 +179,7 @@ height: 100%;
 #bottlesection
 {
 background-image: url("images/threebottlesbackground.png");
+margin:auto;
 }
 .textbottlesection
 {
@@ -244,6 +254,11 @@ color: rgb(58,58,58);
 
 
 /**********************Child Section**********************************/
+#childsection
+{
+    margin: auto;
+}
+
 .rowchild
 {
     display: flex;
@@ -302,9 +317,34 @@ color: rgb(58,58,58);
     width: 100%;
     height: auto;
 }
+/**************************Section number five****************/
+#sectionfive
+{
+    background-image: url("images/handssectionsfive.png"),url("images/sectionfivebackground.png");
 
 
+background-repeat: no-repeat no-repeat;
+background-size: cover;
+background-position: right 400px auto;
 
+}
+.sectionfiverow
+{
+    display: flex;
+    padding-block: 100px;
+    flex-direction: row-reverse;
+}
+.sectionfiveiconandtext
+{
+    display: flex;
+    align-items:center;
+}
+.sectionfiveicons
+{
+    display: flex;
+    flex-direction: column;
+    
+}
 /**************************Section number six*******************/
 #sectionsix
 {
