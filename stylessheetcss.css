@@ -432,7 +432,7 @@ padding-block: 25px;
     background-image: url("images/sectionsixbackgroundtwo.png"),url("images/mostbottomsectionsix.png");
     background-repeat: no-repeat , no-repeat;
     background-position:center , center;
-    background-size:cover,cover;
+    background-size:100% 100%,cover;
     padding-block: 150px;
 }
 .sectionsixrow
@@ -752,7 +752,7 @@ text-align: center;
 /*****************************CLEANING BOTTLE SECTION***********/
 .cleaningbottletext
 {
-    font-family:RanuaTrials-Medium;
+    font-family:RanuaTrials-Regular;
     color: rgb(58,58,58);
     font-size: 30px;
 }
@@ -807,5 +807,18 @@ background-size:60% 100%,cover;
     {
         width: 100%;
     }
-    
+
+
+
+
+    /*******************MEDIA QUERY FOR SECTION SIX***************************/
+    .sectionsixcol1
+    {
+        width: 100%;
+        text-align: center;
+    }
+    .sectionsixcol2
+    {
+        width: 100%;
+    }
 }
