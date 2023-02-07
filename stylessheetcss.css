@@ -666,6 +666,7 @@ gap: 2%;
 {
     display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 
 
 }
@@ -812,12 +813,23 @@ background-size:60% 100%,cover;
 
 
     /*******************MEDIA QUERY FOR SECTION SIX***************************/
-    .sectionsixcol1
+    /* .sectionsixcol1
     {
         width: 100%;
         text-align: center;
     }
     .sectionsixcol2
+    {
+        width: 100%;
+    } */
+
+
+
+
+
+
+    /******************Section seven media query**********/
+    .sectionsevencolumn
     {
         width: 100%;
     }
