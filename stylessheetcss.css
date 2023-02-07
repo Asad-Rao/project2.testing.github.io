@@ -66,7 +66,7 @@ nav
     /* both back-ground images are not repeating */
     background-repeat: no-repeat,no-repeat;
     background-position: center left ,center center;
-    background-size: 50% 100%,cover ;
+    background-size: 50% 100%,100% 100%;
 
 }
 .homecarousel1row
@@ -165,8 +165,9 @@ padding-block: 40px;
 .carouselulimagesiconrow2
 {
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
+gap: 9%;
 
 }
 .sectiononeiconcol2
@@ -782,4 +783,17 @@ background-size:60% 100%,cover;
     width: 33%;
 }
 
-/*************************************************************/
+/****************************MEDIA QUERY*******************/
+@media screen and (max-width: 767px)
+{
+    .homecarousel1row
+    {
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .homecarousel1col1
+    {
+        width: 100%;
+    }
+}
