@@ -601,6 +601,7 @@ flex-wrap: wrap;
 .abovefooterrow
 {
     display: flex;
+    flex-wrap: wrap;
 width: 100%;
 gap: 2%;
 }
@@ -740,13 +741,13 @@ text-align: center;
 }
 .sectioneightcol
 {
-    width: 20%;
+    width: 15%;
 }
 
 .sectioneighttext
 {
     font-size: 13px;
-    display: flex;
+
 
 }
 
@@ -805,7 +806,10 @@ background-size:60% 100%,cover;
         justify-content: center;
         text-align: center;
     }
-
+    .orangecylinder
+    {
+        margin:auto
+    }
     .homecarousel1col1
     {
         width: 100%;
@@ -819,7 +823,7 @@ background-size:60% 100%,cover;
 
 
     /*******************MEDIA QUERY FOR SECTION SIX***************************/
-    /* .sectionsixcol1
+     .sectionsixcol1
     {
         width: 100%;
         text-align: center;
@@ -827,8 +831,20 @@ background-size:60% 100%,cover;
     .sectionsixcol2
     {
         width: 100%;
-    } */
+    } 
 
+
+
+    /************************Section eight************/
+    .sectioneightcol
+    {
+        width: 100%;
+       
+    }
+    .sectioneighttext
+    {
+        text-align: center;
+    }
 
 
 
@@ -836,6 +852,25 @@ background-size:60% 100%,cover;
 
     /******************Section seven media query**********/
     .sectionsevencolumn
+    {
+        width: 100%;
+    }
+
+
+
+
+    /****************Accordian Container**************/
+    .accordioncontainer
+    {
+        width: 100%;
+    }
+
+
+
+
+
+    /*******************Above Footer Section***********/
+    .abovefootercol
     {
         width: 100%;
     }
