@@ -47,7 +47,8 @@ nav
 }
 .nav-icon-image
 {
-    width: 100%;
+    width: 70%;
+    display: block;
 }
 .nav-icon
 {
@@ -237,6 +238,7 @@ background-position: center;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-block-start: 100px;
 }
 .threebottles
 {
@@ -247,7 +249,15 @@ background-position: center;
     width: 23%;
     text-align: center;
 position: relative;
- 
+}
+.topcornertext
+{
+    position: absolute;
+    bottom:95%;
+    color: black;
+    font-family:RanuaTrials-Heavy;
+    width: 43%;
+    text-align: left;
 }
 .threebottlescontent
 {
@@ -287,6 +297,7 @@ position: relative;
 {
     /* text-align: center; */
     font-family:RanuaTrials-Medium;
+
 }
 .textbottlesection h2
 {
@@ -432,13 +443,22 @@ justify-content: space-between;
     width: 58%;
     display: flex;
     justify-content: center;
+    position: relative;
+  
 }
 .bluecylinder
 {
     max-width: 16%;
     width: 100%;
-  
 }
+.bluecylinderglare
+{
+    position: absolute;
+    bottom:1%;
+    left: 27%;
+    width:26%;
+}
+
 .smallsizetextsix
 {
     font-family:RanuaTrials-Regular;
@@ -466,7 +486,7 @@ justify-content: space-between;
     color: rgb(58,58,58);
 }
 .headingaccordiansection
-{
+{padding-block: 50px;
     text-align: center;
 }
 .accordiontextanchorlink
@@ -479,7 +499,7 @@ justify-content: space-between;
     margin: auto;
     width: 70%;
     border: solid;
-    border-color: rgb(253, 165, 1);
+    border-color: #fcd4ab;
     border-width: 1px;
 }
 
@@ -550,12 +570,14 @@ display: flex;
 justify-content: center;
 gap: 1%;
 flex-wrap: wrap;
+
 }
 
 .spurulenttext
 {
     text-align: center;
     font-family:RanuaTrials-Light;
+    padding-block: 25px;
     
 }
 
@@ -739,7 +761,7 @@ background-image:url("images/cleaningbottelwhiteglare.png"),url("images/cleaning
 background-repeat: no-repeat,no-repeat;
 background-position: top left,right center;
 /* for responsive image we use background-size:cover */
-background-size:cover;
+background-size:60% 100%,cover;
 
 
 }
