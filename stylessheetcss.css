@@ -637,6 +637,12 @@ text-align: center;
     align-items: center;
     flex-direction:column ;
     flex-wrap: nowrap;
+    width: 20%;
+
+}
+.footercolumn4
+{
+    width: 27%;
 }
 .anchorfooter
 {
