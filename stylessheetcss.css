@@ -30,6 +30,7 @@ nav
 .logoimage
 {
    width: 100%;
+   display: block;
 }
 .nav-ul
 {width: 74%;
@@ -794,6 +795,11 @@ background-size:60% 100%,cover;
 /****************************MEDIA QUERY*******************/
 @media screen and (max-width: 767px)
 {
+
+    .section3top
+    {
+        padding:0 40px
+    }
     .homecarousel1row
     {
         justify-content: center;
