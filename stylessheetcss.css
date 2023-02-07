@@ -362,8 +362,7 @@ color: rgb(58,58,58);
 /**************************Section number five****************/
 #sectionfive
 {
-    background-image: url("images/handssectionsfive.png"),url("images/sectionfivebackground.png")
-    ;
+    background-image: url("images/handssectionsfive.png"),url("images/sectionfivebackground.png");
 
 margin:auto;
 background-repeat: no-repeat no-repeat;
@@ -377,18 +376,37 @@ background-size: 50% auto ,cover;
     padding-block: 100px;
     flex-direction: row-reverse;
 }
-.sectionfiveiconandtext
-{
-    display: flex;
-    align-items:center;
-    column-gap: 2%;
-}
-.sectionfiveicons
+.sectionfivecolumn
 {
     display: flex;
     flex-direction: column;
-    
 }
+.sectionfiveiconandtext
+{
+display: flex;
+align-items:center;
+column-gap: 4%;
+color: rgb(58,58,58);
+font-family:RanuaTrials-Medium;
+font-size: 20px;
+padding-block: 25px;
+}
+.sectionfiveicons
+{
+  width: 100%;
+  height: auto;
+  display: block;  
+}
+.sectionfiveiconcontainer
+{
+    width: 12%;
+}
+
+
+
+
+
+
 /**************************Section number six*******************/
 #sectionsix
 {
