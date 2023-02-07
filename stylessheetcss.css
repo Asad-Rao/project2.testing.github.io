@@ -407,18 +407,17 @@ justify-content: space-between;
 }
 .sectionsixcol1
 {
-    width: 50%;
+    width: 40%;
 }
 .sectionsixcol2
 {
-    width: 50%;
-
-
+    width: 58%;
+    display: flex;
+    justify-content: center;
 }
 .bluecylinder
 {
     max-width: 16%;
-    margin-left:34%;
     width: 100%;
   
 }
