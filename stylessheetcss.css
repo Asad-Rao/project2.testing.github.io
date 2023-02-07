@@ -677,7 +677,7 @@ text-align: center;
 #sectionseven
 {
     background-color:rgb(217, 244, 255);
-   
+    text-align:center;
     color: rgb(58,58,58);
     padding-block:40px;
     
@@ -789,7 +789,7 @@ text-align: center;
     font-family:RanuaTrials-Regular;
     color: rgb(58,58,58); 
 }
-#sectionseven
+#backgroundsection
 {
 background-image:url("images/cleaningbottelwhiteglare.png"),url("images/cleaningbottlebackgroundphotp.png");
 
@@ -917,20 +917,6 @@ background-size:60% 100%,100% 100%;
     justify-content: center;
 }
 .footercolumn1,.footercolumn2,.footercolumn3,.footercolumn4
-{
-    width: 100%;
-    text-align: center;
-}
-
-
-
-
-/******************Section 7 media query*************/
-.cleaningpottlecol1
-{
-    width: 100%;
-}
-.cleaningpottlecol2
 {
     width: 100%;
     text-align: center;
