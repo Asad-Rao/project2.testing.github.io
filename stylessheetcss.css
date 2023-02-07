@@ -122,7 +122,7 @@ padding-block: 40px;
 
 .homecarouselcol2
 {
-    width: 30%;
+    width: 50%;
 }
 .orangecylinder
 {
@@ -362,7 +362,8 @@ color: rgb(58,58,58);
 /**************************Section number five****************/
 #sectionfive
 {
-    background-image: url("images/handssectionsfive.png"),url("images/sectionfivebackground.png");
+    background-image: url("images/handssectionsfive.png"),url("images/sectionfivebackground.png")
+    ;
 
 margin:auto;
 background-repeat: no-repeat no-repeat;
@@ -395,6 +396,7 @@ background-size: 50% auto ,cover;
     background-repeat: no-repeat , no-repeat;
     background-position:center , center;
     background-size:cover,cover;
+    padding-block: 150px;
 }
 .sectionsixrow
 {
@@ -424,6 +426,7 @@ justify-content: space-between;
 {
     font-family:RanuaTrials-Regular;
     color: rgb(91,91,91);
+    padding-block: 20px;
 }
 
 /***************************************************************/
@@ -580,12 +583,15 @@ gap: 2%;
     background-color:rgb(217, 244, 255);
     text-align:center;
     color: rgb(58,58,58);
+    padding-block:40px;
+    
 }
 .sectionsevenheading
 {
    
         font-family:RanuaTrials-Regular;
-        font-size: 20px;
+        font-size: 25px;
+        padding-block: 35px;
 }
 .sectionsevenrow
 {
@@ -618,13 +624,15 @@ text-align: center;
 {
     font-family:RanuaTrials-Bold;
     font-size: 15px;
-    padding-block: 10px;
+    padding-block:13px;
+   
 }
 .customer-review
 {
     font-family:RanuaTrials-Light;
     font-size: 13px;
     text-align: center;
+    padding-block: 25px;
 }
 .fivestarsrating
 {
