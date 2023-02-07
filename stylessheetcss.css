@@ -874,4 +874,9 @@ background-size:60% 100%,cover;
     {
         width: 100%;
     }
+    .abovefootercol
+    {
+       padding-block: 20px;
+       padding-inline:40px ;
+    }
 }
