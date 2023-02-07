@@ -631,7 +631,12 @@ gap: 2%;
 }
 .footercolumn1
 {
-    text-align: center;
+
+    display: flex;
+text-align: center;
+    align-items: center;
+    flex-direction:column ;
+    flex-wrap: nowrap;
 }
 .anchorfooter
 {
