@@ -626,11 +626,18 @@ gap: 2%;
 {
     display: flex;
     justify-content: space-between;
+    padding-block:40px;
+    flex-wrap: wrap;
+}
+.footercolumn1
+{
+    text-align: center;
 }
 .anchorfooter
 {
     color: rgb(255, 255, 255);
     text-decoration: none;
+    font-family:RanuaTrials-Light;
 }
 .ulfooter
 {
@@ -641,12 +648,15 @@ gap: 2%;
 }
 .main-ul
 {
-    font-family:RanuaTrials-Medium;
-    font-size: 15px;
+    font-family:RanuaTrials-Regular;
+    font-size: 14px;
+    padding-block-end:16px ;
+
 }
 .lifooter
 {
     font-family:RanuaTrials-Light;
+    padding-block: 5px;
 }
 /***************************Section number Seven***************/
 #sectionseven
@@ -879,4 +889,21 @@ background-size:60% 100%,cover;
        padding-block: 20px;
        padding-inline:40px ;
     }
+
+
+
+
+
+
+
+/****************************Footer Media Query*******/
+.footerrow
+{ display: flex;
+    justify-content: center;
+}
+.footercolumn1,.footercolumn2,.footercolumn3,.footercolumn4
+{
+    width: 100%;
+    text-align: center;
+}
 }
