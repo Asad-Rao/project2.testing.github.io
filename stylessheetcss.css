@@ -65,7 +65,7 @@ nav
     /* both back-ground images are not repeating */
     background-repeat: no-repeat,no-repeat;
     background-position: center left ,center center;
-    background-size: 40% 100%,cover ;
+    background-size: 50% 100%,cover ;
 
 }
 .homecarousel1row
@@ -114,7 +114,10 @@ padding-block: 40px;
 .sectiononeiconcoltext
 {
     font-family:RanuaTrials-Regular;
-    font-size: 15px;
+    font-size: 13px;
+    color: rgb(58,58,58);
+    padding-block: 13px;
+
 }
 
 .homecarouselcol2
@@ -158,7 +161,22 @@ padding-block: 40px;
 {
     margin:auto;
 }
+.carouselulimagesiconrow2
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
 
+}
+.sectiononeiconcol2
+{
+    display: flex;
+    flex-direction:column;
+    align-items:center; 
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
 
 .abovebottlesrow
 {
@@ -189,7 +207,10 @@ height: 100%;
 #bottlesection
 {
 background-image: url("images/threebottlesbackground.png");
-margin:auto;
+margin:4% auto;
+padding-block: 40px;
+background-size: cover;
+background-position: center;
 }
 .textbottlesection
 {
@@ -208,6 +229,8 @@ margin:auto;
 .textbottlesection p
 {
       font-family:RanuaTrials-Regular;
+      color: rgb(58,58,58);
+      padding-block: 25px;
 }
 .bottlesrow
 {
@@ -223,22 +246,31 @@ margin:auto;
 {
     width: 23%;
     text-align: center;
+position: relative;
  
 }
 .threebottlescontent
 {
     background-color: rgb(255, 255, 255);
+    padding-bottom:20px;
+ 
+}
+.bottlenameandtext
+{
+    padding-block: 15px;
 }
 
 .threebottlename
 {
     font-family:RanuaTrials-Medium;
     color: rgb(58,58, 58);
+    font-size: 16px;
 }
 .threebottlep
 {
     font-family:RanuaTrials-Regular;
     color: rgb(162,162,162);
+    font-size: 12px;
 }
 .buynowbutton
 {    color: rgb(58,58, 58);
@@ -247,7 +279,7 @@ margin:auto;
     border-radius: 20px;
     padding-block: 7px;
     padding-inline: 24px;
-    background-color:orange;
+    background-color:#fcd285;
 
 }
 
@@ -266,7 +298,7 @@ color: rgb(58,58,58);
 /**********************Child Section**********************************/
 #childsection
 {
-    margin: auto;
+    margin: 4% auto;
 }
 
 .rowchild
@@ -332,10 +364,10 @@ color: rgb(58,58,58);
 {
     background-image: url("images/handssectionsfive.png"),url("images/sectionfivebackground.png");
 
-
+margin:auto;
 background-repeat: no-repeat no-repeat;
-background-size: cover;
-background-position: right 400px auto;
+background-size: 50% auto ,cover;
+
 
 }
 .sectionfiverow
@@ -348,6 +380,7 @@ background-position: right 400px auto;
 {
     display: flex;
     align-items:center;
+    column-gap: 2%;
 }
 .sectionfiveicons
 {
