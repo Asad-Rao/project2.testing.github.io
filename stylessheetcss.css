@@ -102,7 +102,7 @@ width: 14%;
     width: 35%; /* adjust this to control the size of the circular image */
     /* height: 0; */
   
-    padding: 30%; /* maintain the aspect ratio of the image */
+    padding: 22%; /* maintain the aspect ratio of the image */
   
     overflow: hidden;
     border-radius: 50%;
@@ -820,10 +820,10 @@ padding-block:46px;
     display: flex;
     flex-direction: column;
 }
-.yellowiconcontainer
+/* .yellowiconcontainer
 {
 
-}
+} */
 .yellowicon
 {
     width: 100%;
