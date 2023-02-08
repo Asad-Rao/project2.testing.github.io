@@ -66,8 +66,8 @@ nav
 
     /* both back-ground images are not repeating */
     background-repeat: no-repeat,no-repeat;
-    background-position: center left ,center center;
-    background-size: 50% 100%,100% 100%;
+    background-position: 0px  0px ,0rem -12rem ;
+    background-size: 50% 100%,107% 123%;
 
 }
 .homecarousel1row
@@ -81,54 +81,56 @@ nav
 }
 .homecarousel1col1
 {
-    width: 30%;
+    width: 50%;
 }
 .carouselulimagesiconrow
 {
 display: flex;
-justify-content: space-between;
+flex-direction: row;
 align-items: center;
 padding-block: 40px;
+width: 100%;
+gap: 5%;
 }
 .sectiononeiconcol
 {
-    display: flex;
-    flex-direction:column;
-    width: 100%;
-    height: 100%;
+  
+width: 14%;
 }
 .iconscontainersectionone
 {
-    padding: 12%;
-    border-radius: 50%;
-    text-align: center;
+    width: 35%; /* adjust this to control the size of the circular image */
+    /* height: 0; */
+  
+    padding: 30%; /* maintain the aspect ratio of the image */
+  
     overflow: hidden;
-    border-style: solid;
-    border-width: medium;
-    border-color: #fbcfa2;
-    width: 59%;
+    border-radius: 50%;
+     /* make the image circular */
+    position: relative;
+    border: 4px solid rgb(244 189 86 / 78%);
 
 }
-.iconimage
-{
-    width: 100%;
-}
+
 .sectiononeiconcoltext
 {
     font-family:RanuaTrials-Regular;
-    font-size: 13px;
+    font-size: 12px;
     color: rgb(58,58,58);
-    padding-block: 13px;
-
+    margin-block:14%;
+    font-size: 14px;
 }
 
 .homecarouselcol2
 {
     width: 50%;
+    padding-block-end: 200px;
+    padding-inline-start: 38px;
+
 }
 .orangecylinder
 {
-    max-width: 25%;
+    max-width: 19%;
     display: block;
 }
 .homecarousel1col1heading
@@ -166,19 +168,18 @@ padding-block: 40px;
 .carouselulimagesiconrow2
 {
 display: flex;
+flex-wrap: wrap;
+gap: 5%;
 justify-content: center;
-align-items: center;
-gap: 9%;
-
 }
 .sectiononeiconcol2
 {
     display: flex;
     flex-direction:column;
     align-items:center; 
-    width: 10%;
-    height: 100%;
+    width: 15%;
     text-align: center;
+    
 }
 
 .abovebottlesrow
@@ -191,18 +192,26 @@ flex-wrap: wrap;
 }
 
 .imagecontainer1
-{
-width: 6%;
-height: 100%;
-border-radius: 50%;
-padding: 1%;
-}
-.rowimages
-{
-width: 100%;
-display: block;
-height: 100%;
+{    width: 35%; /* adjust this to control the size of the circular image */
+    /* height: 0; */
+  
+    padding: 30%; /* maintain the aspect ratio of the image */
+  
+    overflow: hidden;
+    border-radius: 50%;
+     /* make the image circular */
+    position: relative;
+    border: 4px solid rgb(244 189 86 / 78%);
 
+}
+.iconimage
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* center the image */
+width: 100%; /* make the image stretch to fill the container */
+padding: 22%;
 }
 
 /****************************************************************/
@@ -212,9 +221,13 @@ height: 100%;
 {
 background-image: url("images/threebottlesbackground.png");
 margin:4% auto;
-padding-block: 40px;
+padding-block: 22px;
 background-size: cover;
 background-position: center;
+}
+.exploreourcollection
+{
+    font-size: 20px;
 }
 .textbottlesection
 {
@@ -240,14 +253,14 @@ background-position: center;
 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+gap: 2%;
     padding-block-start: 100px;
     flex-wrap:wrap ;
 }
 .threebottles
 {
     width: 100%;
-    padding-block-end: 77px;
+    padding-block-end: 106px;
 }
 .bottlecolumn
 {
@@ -267,17 +280,14 @@ position: relative;
 .threebottlescontent
 {
     background-color: rgb(255, 255, 255);
-    padding-bottom:20px;
+    padding-bottom:38px;
     position: absolute;
-    bottom: 0;
+    top: 65%;
     left: 0;
     right: 0;
  
 }
-.bottlenameandtext
-{
-    padding-block: 15px;
-}
+
 
 .threebottlename
 {
@@ -290,6 +300,7 @@ position: relative;
     font-family:RanuaTrials-Regular;
     color: rgb(162,162,162);
     font-size: 12px;
+    padding-block: 6px;
 }
 .buynowbutton
 {    color: rgb(58,58, 58);
@@ -349,35 +360,31 @@ color: rgb(58,58,58);
     height: auto;
 }
 .imageicons-row
-{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-
-
-}
+{display: flex;
+ flex-wrap: wrap;}
 .imageicons-column
 {
     font-family:RanuaTrials-Regular;
     color: rgb(58,58,58);
-    width: 26%;
-    text-align: center;
     /* white-space: pre-wrap; */
+    width: 15%;
+    text-align: center;
+
+
+
 
 }
 .imagecontainer
 {  width: 50%;
     border-radius: 50%;
-    padding:10%;
+
     border-style: solid;
     border-color:skyblue;
   
 }
 .circularimageimage
 {
-    width: 100%;
-    height: auto;
+    width: 70%;
 }
 /**************************Section number five****************/
 #sectionfive
@@ -432,8 +439,8 @@ padding-block: 25px;
 {
     background-image: url("images/sectionsixbackgroundtwo.png"),url("images/mostbottomsectionsix.png");
     background-repeat: no-repeat , no-repeat;
-    background-position:center , center;
-    background-size:100% 100%,cover;
+    background-position:0px -20rem,center;
+    background-size:100% 190%,cover;
     padding-block: 150px;
 }
 .sectionsixrow
@@ -640,9 +647,28 @@ text-align: center;
     width: 20%;
 
 }
+.iconfaceinastacopyright
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .facebookandinstafooter
 {
     padding-block:20px;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.instacontainer,.facebookcontainer
+{
+    width: 40%;
+
+}
+.instaimage,.facebookimage
+{
+    width: 100%;
+    display: block;
 }
 .footercolumn4
 {
@@ -659,13 +685,13 @@ text-align: center;
     list-style-type: none;
     font-family:RanuaTrials-Light;
     font-size: 12px;
+    padding-block:16px;
    
 }
 .main-ul
 {
     font-family:RanuaTrials-Regular;
     font-size: 14px;
-    padding-block-end:16px ;
 
 }
 .lifooter
@@ -677,7 +703,11 @@ text-align: center;
 {
     font-size: 12px;
     font-family:RanuaTrials-Light;
-    padding-block: 5px;
+  padding-block: 16px;
+}
+input
+{
+    padding-block: 8px;
 }
 
 
@@ -826,6 +856,24 @@ background-size:60% 100%,100% 100%;
 {
     width: 33%;
 }
+.icon-arrow
+{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 4px;
+
+}
+.orangearrow
+{
+background-color: orange;
+}
+
+.inputplacehodertext::placeholder
+{
+font-family:RanuaTrials-Regular;
+font-size: 12px;
+}
 
 /****************************MEDIA QUERY*******************/
 @media screen and (max-width: 767px)
@@ -930,4 +978,17 @@ background-size:60% 100%,100% 100%;
     width: 100%;
     text-align: center;
 }
+
+
+
+
+
+
+/*******************************************************/
+.sectiononeiconcol2
+{
+    width: 100%;
+    margin-block-end: 2%;
+}
+
 }
