@@ -1,77 +1,94 @@
 @import url("fontfamily.css");
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
-.pagewidth
-{
+}
+
+button {
+    cursor: pointer;
+}
+
+.saleoff {
+    background-image: url("images/get10%offbackground.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat no-repeat;
+    color: rgb(111, 111, 111);
+    text-align: center;
+    font-family: RanuaTrials-Medium;
+    font-size: 14px;
+    padding-block: 5px;
+}
+
+.pagewidth {
     margin: auto;
     max-width: 1700px;
 }
-.section3top
-{
-max-width: 1300px;
-padding: 0 35px;
-margin: auto;
+
+.section3top {
+    max-width: 1300px;
+    padding: 0 35px;
+    margin: auto;
 }
-nav
-{
+
+.nav-section {
+    padding-block: 20px;
+}
+
+nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navlogo
-{
+.navlogo {
     width: 15%;
 }
-.logoimage
-{
-   width: 100%;
-   display: block;
+
+.logoimage {
+    width: 100%;
+    display: block;
 }
-.nav-ul
-{width: 74%;
+
+.nav-ul {
+    width: 74%;
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
-.anchor-li
-{
+
+.anchor-li {
     text-decoration: none;
-    color:rgb(111, 111, 111);
-    font-family:RanuaTrials-Regular;
+    color: rgb(111, 111, 111);
+    font-family: RanuaTrials-Regular;
     font-size: 13px;
-    
+
 }
-.nav-icon-image
-{
+
+.nav-icon-image {
     width: 70%;
     display: block;
 }
-.nav-icon
-{
+
+.nav-icon {
     width: 2%;
 }
+
 /*******************carouselhomebackground***********************/
-#sectionone
-{
-    margin: 4% auto;
-}
-.backgroundtophome
-{
-    background-image:url("images/glowhometop.png"),url("images/cleaningbottletophome.png");
+
+.backgroundtophome {
+    background-image: url("images/greenglobesection9background.jpg");
 
     /* both back-ground images are not repeating */
-    background-repeat: no-repeat,no-repeat;
-    background-position: 0px  0px ,0rem -12rem ;
-    background-size: 50% 100%,107% 123%;
+    background-repeat: no-repeat, no-repeat;
+
+    background-size: 100% 100%;
 
 }
-.homecarousel1row
-{
+
+.homecarousel1row {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -79,70 +96,76 @@ nav
     flex-direction: row;
     padding-block: 100px;
 }
-.homecarousel1col1
-{
+
+.homecarousel1col1 {
     width: 50%;
 }
-.carouselulimagesiconrow
-{
-display: flex;
-flex-direction: row;
-align-items: center;
-padding-block: 40px;
-width: 100%;
-gap: 5%;
+
+.carouselulimagesiconrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: flex-start; */
+    width: 100%;
+    padding-block: 30px;
+    gap: 1%;
 }
-.sectiononeiconcol
+
+.sectiononeiconcolhome
 {
-  
-width: 14%;
+    width: 18%;
 }
-.iconscontainersectionone
-{
-    width: 35%; /* adjust this to control the size of the circular image */
-    /* height: 0; */
-  
-    padding: 22%; /* maintain the aspect ratio of the image */
-  
-    overflow: hidden;
-    border-radius: 50%;
-     /* make the image circular */
+
+.sectiononeiconcol {
+
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
-    border: 4px solid rgb(244 189 86 / 78%);
 
 }
 
-.sectiononeiconcoltext
-{
-    font-family:RanuaTrials-Regular;
+.iconscontainersectionhome {
+    width: 100%;
+
+
+}
+
+.iconscontainersectionone {
+    width: 64%;
+
+}
+
+.sectiononeiconcoltext {
+    font-family: RanuaTrials-Regular;
     font-size: 12px;
-    color: rgb(58,58,58);
-    margin-block:14%;
-    font-size: 14px;
+    color: rgb(58, 58, 58);
+    margin-block: 3%;
+    font-size: 12px;
+    text-align: center;
 }
 
-.homecarouselcol2
-{
-    width: 50%;
-    padding-block-end: 200px;
-    padding-inline-start: 38px;
+.homecarouselcol2 {
+    width: 40%;
+    display: flex;
 
 }
-.orangecylinder
-{
-    max-width: 19%;
+
+.orangecylinder {
+    width: 100%;
     display: block;
 }
-.homecarousel1col1heading
-{
-    font-family:RanuaTrials-Medium;
-    color: rgb(58,58,58);
+
+.homecarousel1col1heading {
+    font-family: RanuaTrials-Medium;
+    color: rgb(58, 58, 58);
     font-size: 55px;
 }
-.homecarousel1col1smalltext
-{
-    font-family:RanuaTrials-Regular;
-    color: rgb(58,58,58);
+
+.homecarousel1col1smalltext {
+    font-family: RanuaTrials-Regular;
+    color: rgb(58, 58, 58);
     padding-block: 20px;
 }
 
@@ -150,335 +173,344 @@ width: 14%;
 
 
 /**********************************************************/
-.middlerow
-{
+.middlerow {
     display: flex;
     /* justify-content: space-between; */
 }
 
-.yellowbottle
-{
+.yellowbottle {
     transform: translateX(75px);
 }
+
 /*******************************Above bottles section************/
-#abovebottlessection
-{
-    margin:auto;
+#abovebottlessection {
+    margin: auto;
 }
-.carouselulimagesiconrow2
-{
-display: flex;
-flex-wrap: wrap;
-gap: 5%;
-justify-content: center;
-}
-.sectiononeiconcol2
-{
+
+.carouselulimagesiconrow2 {
     display: flex;
-    flex-direction:column;
-    align-items:center; 
-    width: 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 3%;
+    padding-block: 34px;
+ 
+  
+}
+
+.sectiononeiconcol2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 14%;
     text-align: center;
-    
+
 }
 
-.abovebottlesrow
-{
-display: flex;
-align-items: center;
-justify-content: space-around;
-flex-wrap: wrap;
-    
+.abovebottlesrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
 
-.imagecontainer1
-{    width: 35%; /* adjust this to control the size of the circular image */
+.imagecontainer1 {
+    width: 35%;
+    /* adjust this to control the size of the circular image */
     /* height: 0; */
-  
-    padding: 30%; /* maintain the aspect ratio of the image */
-  
+
+    padding: 30%;
+    /* maintain the aspect ratio of the image */
+
     overflow: hidden;
     border-radius: 50%;
-     /* make the image circular */
+    /* make the image circular */
     position: relative;
     border: 4px solid rgb(244 189 86 / 78%);
 
 }
-.iconimage
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* center the image */
-width: 100%; /* make the image stretch to fill the container */
-padding: 22%;
+
+.iconimage {
+
+    /* center the image */
+    width: 100%;
+    display: block;
+    /* make the image stretch to fill the container */
 }
 
 /****************************************************************/
 
 /*****************************Bottle section***********************/
-#bottlesection
-{
-background-image: url("images/threebottlesbackground.png");
-margin:4% auto;
-padding-block: 22px;
-background-size: cover;
-background-position: center;
+#bottlesection {
+    background-image: url("images/threebottlesbackground.png");
+    margin: 4% auto;
+    padding-block: 22px;
+    background-size: cover;
+    background-position: center;
 }
-.exploreourcollection
-{
+
+.exploreourcollection {
     font-size: 20px;
 }
-.textbottlesection
-{
-   text-align: center;
-   width: 50%;
-   margin: 0 auto;
-  
+
+.textbottlesection {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
 }
 
 
-.textbottlesection h2
-{
+.textbottlesection h2 {
     font-size: 30px;
-    font-family:RanuaTrials-Regular;
+    font-family: RanuaTrials-Regular;
 }
-.textbottlesection p
-{
-      font-family:RanuaTrials-Regular;
-      color: rgb(58,58,58);
-      padding-block: 25px;
+
+.textbottlesection p {
+    font-family: RanuaTrials-Regular;
+    color: rgb(58, 58, 58);
+    padding-block: 25px;
 }
-.bottlesrow
-{
+
+.bottlesrow {
     display: flex;
     align-items: center;
-gap: 2%;
-    padding-block-start: 100px;
-    flex-wrap:wrap ;
+    gap: 2%;
+    padding-block-start: 60px;
+    flex-wrap: wrap;
 }
-.threebottles
-{
+
+.threebottles {
     width: 100%;
     padding-block-end: 106px;
 }
-.bottlecolumn
-{
+
+.bottlecolumn {
     width: 23%;
     text-align: center;
-position: relative;
+    position: relative;
 }
-.topcornertext
-{
+
+.topcornertext {
     position: absolute;
-    bottom:95%;
+    bottom: 95%;
     color: black;
-    font-family:RanuaTrials-Heavy;
+    font-family: RanuaTrials-Heavy;
     width: 43%;
     text-align: left;
+    right: 60%;
 }
-.threebottlescontent
-{
+
+.threebottlescontent {
     background-color: rgb(255, 255, 255);
-    padding-bottom:38px;
+    padding-bottom: 38px;
     position: absolute;
     top: 65%;
     left: 0;
     right: 0;
- 
+
 }
 
 
-.threebottlename
-{
-    font-family:RanuaTrials-Medium;
-    color: rgb(58,58, 58);
+.threebottlename {
+    font-family: RanuaTrials-Medium;
+    color: rgb(58, 58, 58);
     font-size: 16px;
 }
-.threebottlep
-{
-    font-family:RanuaTrials-Regular;
-    color: rgb(162,162,162);
+
+.threebottlep {
+    font-family: RanuaTrials-Regular;
+    color: rgb(162, 162, 162);
     font-size: 12px;
     padding-block: 6px;
 }
-.buynowbutton
-{    color: rgb(58,58, 58);
-    font-family:RanuaTrials-Medium;
+
+.buynowbutton {
+    color: rgb(58, 58, 58);
+    font-family: RanuaTrials-Medium;
     border: none;
     border-radius: 20px;
-    padding-block: 7px;
+    padding-block: 10px;
     padding-inline: 24px;
-    background-color:#fcd285;
-
+    background-color: rgb(254, 203, 122);
+    font-size: 12px;
 }
 
-.textbottlesection
-{
+.textbottlesection {
     /* text-align: center; */
-    font-family:RanuaTrials-Medium;
+    font-family: RanuaTrials-Medium;
 
 }
-.textbottlesection h2
-{
-color: rgb(58,58,58);
+
+.textbottlesection h2 {
+    color: rgb(58, 58, 58);
 }
 
 
 
 /**********************Child Section**********************************/
-#childsection
-{
+#childsection {
     margin: 4% auto;
 }
 
-.rowchild
-{
+.rowchild {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
-.col1child
-{
+
+.col1child {
     display: flex;
     flex-direction: column;
     width: 45%;
 }
-.col2child
-{   
+
+.col2child {
     width: 45%;
 }
-.col1childtext
-{
-    color: rgb(58,58,58);
-    font-family:RanuaTrials-Medium;
-    font-size: 20px;
+
+.col1childtext {
+    color: rgb(58, 58, 58);
+    font-family: RanuaTrials-Regular;
+    font-size: 30px;
 }
-.littlechildimage
-{
+
+.littlechildimage {
     width: 100%;
     height: auto;
 }
-.imageicons-row
-{display: flex;
- flex-wrap: wrap;}
-.imageicons-column
-{
-    font-family:RanuaTrials-Regular;
-    color: rgb(58,58,58);
-    /* white-space: pre-wrap; */
-    width: 15%;
-    text-align: center;
 
-
-
-
-}
-.imagecontainer
-{  width: 50%;
-    border-radius: 50%;
-
-    border-style: solid;
-    border-color:skyblue;
-  
-}
-.circularimageimage
-{
-    width: 70%;
-}
-/**************************Section number five****************/
-#sectionfive
-{
-    background-image: url("images/handssectionsfive.png"),url("images/sectionfivebackground.png");
-
-margin:auto;
-background-repeat: no-repeat no-repeat;
-background-size: 50% auto ,cover;
-
-
-}
-.sectionfiverow
-{
+.imageicons-row {
     display: flex;
-    padding-block: 100px;
-    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 13%;
+    padding-block: 56px;
+    row-gap: 30px;
 }
-.sectionfivecolumn
-{
+
+.imageicons-column {
+    font-family: RanuaTrials-Regular;
+    color: rgb(58, 58, 58);
+    /* white-space: pre-wrap; */
+    width: 20%;
+}
+
+.imagecontainer {
+    width: 100%;
+}
+
+.circularimageimage {
+    width: 100%;
+}
+
+.childicontext {
+    font-size: 12px;
+    color: rgb(58, 58, 58);
+    margin-block: 6%;
+    text-align: center;
+}
+
+/**************************Section number five****************/
+#sectionfive {
+    background-image: url("images/latestsectionfivebackground.jpg");
+    background-repeat: no-repeat no-repeat;
+    background-size: 100% 100%;
+
+
+}
+
+.sectionfiverow {
+    display: flex;
+    padding-block: 60px;
+    justify-content: right;
+    flex-wrap: wrap;
+
+}
+
+.sectionfivecolumn {
     display: flex;
     flex-direction: column;
+    width: 40%;
 }
-.sectionfiveiconandtext
-{
-display: flex;
-align-items:center;
-column-gap: 4%;
-color: rgb(58,58,58);
-font-family:RanuaTrials-Medium;
-font-size: 20px;
-padding-block: 25px;
+
+.sectionfiveiconandtext {
+    display: flex;
+    align-items: center;
+    column-gap: 4%;
+    color: rgb(58, 58, 58);
+    font-family: RanuaTrials-Medium;
+    font-size: 20px;
+    padding-block: 9px;
 }
-.sectionfiveicons
-{
-  width: 100%;
-  height: auto;
-  display: block;  
+
+.sectionfiveicons {
+    width: 100%;
+    height: auto;
+    display: block;
 }
-.sectionfiveiconcontainer
-{
+
+.sectionfiveiconcontainer {
     width: 12%;
 }
 
-
-
+.easybutton {
+    color: rgb(58, 58, 58);
+    font-family: RanuaTrials-Medium;
+    border: none;
+    border-radius: 20px;
+    padding-block: 13px;
+    padding-inline: 34px;
+    background-color: rgb(254, 203, 122);
+    font-size: 12px;
+}
 
 
 
 /**************************Section number six*******************/
-#sectionsix
-{
-    background-image: url("images/sectionsixbackgroundtwo.png"),url("images/mostbottomsectionsix.png");
-    background-repeat: no-repeat , no-repeat;
-    background-position:0px -20rem,center;
-    background-size:100% 190%,cover;
+#sectionsix {
+    background-image: url("images/bluecylinderontablebackground.jpg"), url("images/mostbottomsectionsix.png");
+    background-repeat: no-repeat, no-repeat;
+
+    background-size: 100% 100%, 100% 100%;
     padding-block: 150px;
 }
-.sectionsixrow
-{
+
+.sectionsixrow {
     display: flex;
     flex-wrap: wrap;
-align-items: center;
-justify-content: space-between;
+    align-items: center;
 }
-.sectionsixcol1
-{
-    width: 40%;
+
+.sectionsixcol1 {
+    width: 38%;
 }
-.sectionsixcol2
-{
+
+.sectionsixcol2 {
     width: 58%;
     display: flex;
     justify-content: center;
     position: relative;
-  
-}
-.bluecylinder
-{
-    max-width: 16%;
-    width: 100%;
-}
-.bluecylinderglare
-{
-    position: absolute;
-    bottom:1%;
-    left: 27%;
-    width:26%;
+
 }
 
-.smallsizetextsix
-{
-    font-family:RanuaTrials-Regular;
-    color: rgb(91,91,91);
+.learnmorebutton {
+    color: rgb(58, 58, 58);
+    font-family: RanuaTrials-Medium;
+    border: none;
+    border-radius: 20px;
+    padding-block: 12px;
+    padding-inline: 24px;
+    background-color: rgb(254, 203, 122);
+    font-size: 12px;
+}
+
+.smallsizetextsix {
+    font-family: RanuaTrials-Regular;
+    color: rgb(91, 91, 91);
     padding-block: 20px;
 }
 
@@ -488,30 +520,28 @@ justify-content: space-between;
 
 
 /************************************************************/
-.sectionheadingtext 
-{
-    font-family:RanuaTrials-Medium;
+.sectionheadingtext {
+    font-family: RanuaTrials-Medium;
 
 }
 
 /**************************Accordian Section*************************************/
-#accordiansection
-{
-    
-    font-family:RanuaTrials-Medium;
-    color: rgb(58,58,58);
+#accordiansection {
+
+    font-family: RanuaTrials-Medium;
+    color: rgb(58, 58, 58);
 }
-.headingaccordiansection
-{padding-block: 50px;
+
+.headingaccordiansection {
+    padding-block: 50px;
     text-align: center;
 }
-.accordiontextanchorlink
-{
+
+.accordiontextanchorlink {
     color: rgb(11, 150, 204);
 }
 
-.accordioncontainer
-{
+.accordioncontainer {
     margin: auto;
     width: 70%;
     border: solid;
@@ -521,80 +551,78 @@ justify-content: space-between;
 
 
 .accordion {
- 
+
     background-color: rgb(255, 255, 255);
-    color: rgb(58,58,58);
+    color: rgb(58, 58, 58);
     cursor: pointer;
-  width: 100%;
+    width: 100%;
     text-align: left;
     outline: none;
     transition: 0.4s;
-    font-family:RanuaTrials-Regular;
+    font-family: RanuaTrials-Regular;
     font-size: 18px;
     padding: 20px;
     border: none;
     outline: none;
-  }
-  
-  .active, .accordion:hover {
+}
+
+.active,
+.accordion:hover {
     background-color: rgb(250, 246, 239);
 
 
-  }
-  
-  .accordion:after {
+}
+
+.accordion:after {
     content: '\002B';
-  color:rgb(253 165 1);
-  padding-left: 20px;
+    color: rgb(253 165 1);
+    padding-left: 20px;
     float: right;
 
-  }
-  
-  .active:after {
+}
+
+.active:after {
     content: "\2212";
-  }
-  
-  .panel {
+}
+
+.panel {
 
     background-color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    font-family:RanuaTrials-Light;
+    font-family: RanuaTrials-Light;
     color: rgb(58, 58, 58);
-  }
-.accordiontext
-{    background-color: rgb(255, 248, 231);
+}
+
+.accordiontext {
+    background-color: rgb(255, 248, 231);
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
+
 /***************************Spurulent section********/
-#sprulentsection
-{
-    color: rgb(58,58,58);
-    padding-top: 40px;
-    padding-bottom: 40px;
+#sprulentsection {
+    color: rgb(58, 58, 58);
 }
 
 
-.spurulentimgandheading
-{
+.spurulentimgandheading {
 
-display: flex;
-justify-content: center;
-gap: 1%;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    flex-wrap: wrap;
 
 }
 
-.spurulenttext
-{
+.spurulenttext {
     text-align: center;
-    font-family:RanuaTrials-Light;
+    font-family: RanuaTrials-Light;
     padding-block: 25px;
-    
+
 }
 
 
@@ -605,176 +633,180 @@ flex-wrap: wrap;
 
 
 /************************************************/
-.abovefooterrow
-{
+.abovefooterrow {
     display: flex;
     flex-wrap: wrap;
-width: 100%;
-gap: 2%;
+    width: 100%;
+    gap: 2%;
+    margin: 2% auto;
 }
-.abovefootercol
-{  width: 12.57%;
+
+.abovefootercol {
+    width: 12.57%;
 }
-.imageabovefooter
-{
-    width:100%;
-    height:100%;
+
+.imageabovefooter {
+    width: 100%;
+    height: 100%;
 }
 
 /*********************Footer Section    *************************/
-#footersection
-{
+#footersection {
     background-image: url("images/footerbackground.png");
     color: rgb(255, 255, 255);
     background-repeat: no-repeat no-repeat;
-    background-position:center center;
+    background-position: center center;
     background-size: 100% 100%;
-}.footerrow
-{
+}
+
+.footerrow {
     display: flex;
     justify-content: space-between;
-    padding-block:40px;
+    padding-block: 40px;
     flex-wrap: wrap;
 }
-.footercolumn1
-{
+
+.footercolumn1 {
 
     display: flex;
-text-align: center;
+    text-align: center;
     align-items: center;
-    flex-direction:column ;
+    flex-direction: column;
     flex-wrap: nowrap;
     width: 20%;
 
 }
-.iconfaceinastacopyright
-{
+
+.iconfaceinastacopyright {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.facebookandinstafooter
-{
-    padding-block:20px;
+
+.facebookandinstafooter {
+    padding-block: 20px;
     display: flex;
     justify-content: space-between;
     width: 40%;
 }
-.instacontainer,.facebookcontainer
-{
+
+.instacontainer,
+.facebookcontainer {
     width: 40%;
 
 }
-.instaimage,.facebookimage
-{
+
+.instaimage,
+.facebookimage {
     width: 100%;
     display: block;
 }
-.footercolumn4
-{
+
+.footercolumn4 {
     width: 27%;
 }
-.anchorfooter
-{
+
+.anchorfooter {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    font-family:RanuaTrials-Light;
+    font-family: RanuaTrials-Light;
 }
-.ulfooter
-{
+
+.ulfooter {
     list-style-type: none;
-    font-family:RanuaTrials-Light;
+    font-family: RanuaTrials-Light;
     font-size: 12px;
-    padding-block:16px;
-   
+    padding-block: 16px;
+
 }
-.main-ul
-{
-    font-family:RanuaTrials-Regular;
+
+.main-ul {
+    font-family: RanuaTrials-Regular;
     font-size: 14px;
 
 }
-.lifooter
-{
-    font-family:RanuaTrials-Light;
+
+.lifooter {
+    font-family: RanuaTrials-Light;
     padding-block: 5px;
 }
-.col4text
-{
+
+.col4text {
     font-size: 12px;
-    font-family:RanuaTrials-Light;
-  padding-block: 16px;
+    font-family: RanuaTrials-Light;
+    padding-block: 16px;
 }
-input
-{
+
+input {
     padding-block: 8px;
+    width: 83%;
+
 }
 
 
 
 /***************************Section number Seven***************/
-#sectionseven
-{
-    background-color:rgb(217, 244, 255);
-    text-align:center;
-    color: rgb(58,58,58);
-    padding-block:40px;
-    
+#sectionseven {
+    background-color: rgb(217, 244, 255);
+    text-align: center;
+    color: rgb(58, 58, 58);
+    padding-block: 40px;
+
 }
-.sectionsevenheading
-{
-   
-        font-family:RanuaTrials-Regular;
-        font-size: 25px;
-        padding-block: 35px;
+
+.sectionsevenheading {
+
+    font-family: RanuaTrials-Regular;
+    font-size: 25px;
+    padding-block: 35px;
 }
-.sectionsevenrow
-{
+
+.sectionsevenrow {
     display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 
 }
-.sectionsevencolumn
-{
-width: 25%;
-text-align: center;
+
+.sectionsevencolumn {
+    width: 25%;
+    text-align: center;
 
 }
-.userimagecontainer
-{
+
+.userimagecontainer {
     background-color: rgb(200, 200, 200);
 
     margin: auto;
     max-width: 36px;
     border-radius: 50%;
-   overflow: hidden;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.circularcardimages
-{
+
+.circularcardimages {
     width: 100%;
     height: auto;
 }
-.customername
-{
-    font-family:RanuaTrials-Bold;
+
+.customername {
+    font-family: RanuaTrials-Bold;
     font-size: 15px;
-    padding-block:13px;
-   
+    padding-block: 13px;
+
 }
-.customer-review
-{
-    font-family:RanuaTrials-Light;
+
+.customer-review {
+    font-family: RanuaTrials-Light;
     font-size: 13px;
     text-align: center;
     padding-block: 25px;
 }
-.fivestarsrating
-{
+
+.fivestarsrating {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -788,165 +820,165 @@ text-align: center;
 
 
 /*************************Section number eight**********************************/
-#sectioneight
-{
+#sectioneight {
     text-align: center;
-    font-family:RanuaTrials-Medium;
-    color: rgb(58,58,58);
-    margin:4% auto ;
+    font-family: RanuaTrials-Medium;
+    color: rgb(58, 58, 58);
+    margin: 4% auto;
 }
 
 
-.sectioneightrow
-{
+.sectioneightrow {
     display: flex;
     flex-wrap: wrap;
-    gap: 5%;
+    gap: 2%;
     justify-content: center;
-align-self: center;
-width: 100%;
-padding-block:46px;
+    align-self: center;
+    width: 100%;
+    padding-block: 34px;
 }
-.sectioneightcol
-{
-    display: flex;
-    flex-direction:column;
-    align-items:center; 
 
-
-}
-.sectioneightheadingtext
-{
+.sectioneightcol {
     display: flex;
     flex-direction: column;
-}
-/* .yellowiconcontainer
-{
+    align-items: center;
+    width: 16%;
 
-} */
-.yellowicon
-{
+
+}
+
+.sectioneightheadingtext {
+    display: flex;
+    flex-direction: column;
+    font-family:RanuaTrials-Regular;
+}
+
+.yellowiconcontainer {
+    width: 36%;
+}
+
+.yellowicon {
     width: 100%;
     display: block;
 }
 
-.sectioneighttext
-{
-    font-size: 13px;
-
-
+.sectioneighttext {
+    font-size: 12px;
+    margin-block: 6%;
+    color: rgb(58, 58, 58);
 }
 
 
 /*****************************CLEANING BOTTLE SECTION***********/
-.cleaningbottletext
-{
-    font-family:RanuaTrials-Regular;
-    color: rgb(58,58,58);
-    font-size: 30px;
+.cleaningbottletext {
+    font-family: RanuaTrials-Regular;
+    color: rgb(58, 58, 58);
+    font-size: 34px;
 }
-.smallsizetext
-{
-    font-family:RanuaTrials-Regular;
-    color: rgb(58,58,58); 
+
+.smallsizetext {
+    font-family: RanuaTrials-Regular;
+    color: rgb(58, 58, 58);
+    padding-block: 15px;
 }
-#backgroundsection
-{
-background-image:url("images/cleaningbottelwhiteglare.png"),url("images/cleaningbottlebackgroundphotp.png");
 
-/* both back-ground images are not repeating */
-background-repeat: no-repeat,no-repeat;
-background-position: top left,right center;
-/* for responsive image we use background-size:cover */
-background-size:60% 100%,100% 100%;
+#backgroundsection {
+    background-image: url("images/greenglobesection9background.jpg");
 
-
+    /* both back-ground images are not repeating */
+    background-repeat: no-repeat, no-repeat;
+    /* for responsive image we use background-size:cover */
+    background-size: 100% 100%
 }
-.cleaningpottlerow
-{   
+
+.cleaningpottlerow {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding-block: 150px;
 }
-.cleaningpottlecol1
-{
 
+.cleaningpottlecol1 {
+
+    width: 37%;
+}
+
+.cleaningpottlecol2 {
     width: 33%;
 }
-.cleaningpottlecol2
-{
-    width: 33%;
-}
-.icon-arrow
-{
+
+.icon-arrow {
     width: 30px;
     height: 4px;
     background-color: white;
     border-radius: 4px;
 
 }
-.orangearrow
-{
-background-color: orange;
+
+.orangearrow {
+    background-color: rgb(254, 203, 122);
 }
 
-.inputplacehodertext::placeholder
-{
-font-family:RanuaTrials-Regular;
-font-size: 12px;
+.inputplacehodertext::placeholder {
+    font-family: RanuaTrials-Regular;
+    font-size: 12px;
 }
 
 /****************************MEDIA QUERY*******************/
-@media screen and (max-width: 767px)
-{
+@media screen and (max-width: 767px) {
 
-    .section3top
-    {
-        padding:0 40px
+    .section3top {
+        padding: 0 40px
     }
-    .homecarousel1row
-    {
+
+    .homecarousel1row {
         justify-content: center;
         text-align: center;
     }
-    .orangecylinder
-    {
-        margin:auto
+
+    .orangecylinder {
+        margin: auto
     }
-    .homecarousel1col1
-    {
-        width: 100%;
-    }
-    .bottlecolumn
-    {
+
+    .homecarousel1col1 {
         width: 100%;
     }
 
+    .bottlecolumn {
+        width: 100%;
+    }
 
 
+/************************MEDIA QUERY FOR HOME CAROUSEL*****/
+.carouselulimagesiconrow
+{
+    display: flex;
+    justify-content: center;
+}
+/**********************************************************/
 
     /*******************MEDIA QUERY FOR SECTION SIX***************************/
-     .sectionsixcol1
-    {
+    .sectionsixcol1 {
         width: 100%;
         text-align: center;
     }
-    .sectionsixcol2
-    {
+
+    .sectionsixcol2 {
         width: 100%;
-    } 
+    }
+
+    /***********************Section five media query*****/
 
 
 
     /************************Section eight************/
-    .sectioneightcol
-    {
+    .sectioneightcol {
         width: 100%;
-       
+
     }
-    .sectioneighttext
-    {
+
+    .sectioneighttext {
         text-align: center;
     }
 
@@ -955,8 +987,7 @@ font-size: 12px;
 
 
     /******************Section seven media query**********/
-    .sectionsevencolumn
-    {
+    .sectionsevencolumn {
         width: 100%;
     }
 
@@ -964,8 +995,7 @@ font-size: 12px;
 
 
     /****************Accordian Container**************/
-    .accordioncontainer
-    {
+    .accordioncontainer {
         width: 100%;
     }
 
@@ -974,14 +1004,13 @@ font-size: 12px;
 
 
     /*******************Above Footer Section***********/
-    .abovefootercol
-    {
+    .abovefootercol {
         width: 100%;
     }
-    .abovefootercol
-    {
-       padding-block: 20px;
-       padding-inline:40px ;
+
+    .abovefootercol {
+        padding-block: 20px;
+        padding-inline: 40px;
     }
 
 
@@ -990,27 +1019,101 @@ font-size: 12px;
 
 
 
-/****************************Footer Media Query*******/
-.footerrow
-{ display: flex;
-    justify-content: center;
-}
-.footercolumn1,.footercolumn2,.footercolumn3,.footercolumn4
+    /****************************Footer Media Query*******/
+    .footerrow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footercolumn1,
+    .footercolumn2,
+    .footercolumn3,
+    .footercolumn4 {
+        width: 100%;
+        text-align: center;
+    }
+    input
+    {
+        width: 30%;
+    }
+
+
+
+
+
+
+    /*******************************************************/
+    .sectiononeiconcol2 {
+        width: 100%;
+        margin-block-end: 2%;
+    }
+    /****************green globe section***********/
+    .cleaningpottlecol1
+    {
+    width: 100%;
+    text-align: center;    
+    }  
+.sectionfivecolumn
 {
     width: 100%;
     text-align: center;
 }
+.sectionfiveiconandtext
+{
+    justify-content: center;
+}
 
 
 
-
-
-
-/*******************************************************/
-.sectiononeiconcol2
+/*********************Section six Media Query ********/
+.sectionsixcol1
 {
     width: 100%;
-    margin-block-end: 2%;
+}
+.sectionsixrow
+{
+    justify-content: center;
 }
 
+
+
+
+/**************************Child Section**************/
+.rowchild
+{
+    justify-content: center;
 }
+.col1child
+{
+    width: 100%;
+}
+.col2child
+{
+    width: 100%;
+}
+.col1childtext
+{
+    text-align: center;
+}
+.imageicons-row
+{
+    justify-content: center;
+}
+}
+
+
+.line {
+
+    width: calc(300px*1.41);
+
+    border-bottom: 3px solid rgb(1, 68, 12);
+
+    transform: rotate(45deg);
+
+    transform-origin: left;
+
+
+
+  
+}
+
